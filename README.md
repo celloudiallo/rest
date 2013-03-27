@@ -142,7 +142,7 @@ Our goal is to work in every major JavaScript environment; Node.js and major bro
 If your preferred environment is not supported, please let us know. Some features may not be available in all environments.
 
 Tested environments:
-- Node.js (0.8, should wok in earlier versions)
+- Node.js (0.10, 0.8, 0.6)
 - Chrome (stable)
 - Firefox (stable, ESR, should work in earlier versions)
 - IE (6-10)
@@ -231,6 +231,7 @@ Change Log
 
 .next
 - moving from the 's2js' to the 'cujojs' organization
+- add Node 0.10 as a tested environment
 - Interceptor configuration chaining
 - wire.js factory
 - access to the originating client as request.originator
